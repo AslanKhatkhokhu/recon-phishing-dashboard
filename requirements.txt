@@ -1,0 +1,29 @@
+flask>=3.0.0
+
+# Username recon
+sherlock-project
+maigret          # WhatsMyName-compatible, 2500+ sites
+gitfive
+social-analyzer  # 900+ social media platforms by username
+
+# Email recon
+holehe
+
+# Domain / company recon
+shodan
+censys
+
+# Web scraping (web_scraper.py)
+beautifulsoup4
+lxml
+requests
+
+# Vishing — optional, enables Twilio call initiation
+twilio
+
+# Local SMTP relay
+aiosmtpd
+dnspython
+
+# Env var loading from .env file
+python-dotenv

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+
+# Logs (may contain captured data)
+*.log
+
+# Wordlists / personal data / any text dumps except requirements
+*.txt
+!requirements.txt
+
+# Environment / secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
